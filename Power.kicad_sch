@@ -6632,6 +6632,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 109.22) (xy 52.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce30185b-be3a-421c-8058-61f9e8e93042")
+	)
+	(wire
+		(pts
 			(xy 242.57 27.94) (xy 242.57 25.4)
 		)
 		(stroke
@@ -6979,6 +6989,16 @@
 			(type default)
 		)
 		(uuid "f62a2e36-0851-4f5f-9606-30d12ff27bc7")
+	)
+	(wire
+		(pts
+			(xy 45.72 109.22) (xy 45.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73b9817-4a3e-4365-9d58-a281355dcc63")
 	)
 	(wire
 		(pts
@@ -8637,7 +8657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 102.87 180)
+		(at 52.07 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8646,7 +8666,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f79d764-ff91-4388-bb13-2e3b869bfd9e")
 		(property "Reference" "#PWR048"
-			(at 52.07 96.52 0)
+			(at 52.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 97.79 0)
+			(at 52.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,7 +8683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 102.87 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +8692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 102.87 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 102.87 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,10 +9980,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c642c435-61ae-4a8a-968b-684498877263")
+			(uuid "c642c435-61ae-4a8a-968b-684498877264")
 		)
 		(pin "2"
-			(uuid "ab207c26-f411-4f76-be89-2ed51423d994")
+			(uuid "ab207c26-f411-4f76-be89-2ed51423d995")
 		)
 		(instances
 			(project ""
@@ -10257,7 +10277,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 106.68 0)
+		(at 45.72 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10266,7 +10286,7 @@
 		(dnp no)
 		(uuid "70492123-75de-4de7-bb7c-11492dcdabb3")
 		(property "Reference" "C?"
-			(at 42.672 103.886 0)
+			(at 42.672 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10295,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 42.672 106.426 0)
+			(at 42.672 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.7548 110.49 0)
+			(at 44.7548 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,7 +10313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 106.68 0)
+			(at 45.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10322,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 106.68 0)
+			(at 45.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,10 +10408,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "189cd525-e98b-445e-96ac-e43428375e26")
+			(uuid "189cd525-e98b-445e-96ac-e43428375e27")
 		)
 		(pin "2"
-			(uuid "07072773-f7f1-4ac8-bbc8-e11644b47485")
+			(uuid "07072773-f7f1-4ac8-bbc8-e11644b47486")
 		)
 		(instances
 			(project ""
@@ -11284,7 +11304,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 106.68 0)
+		(at 52.07 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11293,7 +11313,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b80a83e-130f-4d29-afe2-62e46ab4fc07")
 		(property "Reference" "C?"
-			(at 55.88 105.4099 0)
+			(at 55.88 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,7 +11322,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 55.88 107.9499 0)
+			(at 55.88 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11311,7 +11331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.0352 110.49 0)
+			(at 53.0352 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11320,7 +11340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 106.68 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,7 +11349,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 106.68 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11338,10 +11358,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2347ba49-ab40-4af4-8b36-46c9cc413254")
+			(uuid "2347ba49-ab40-4af4-8b36-46c9cc413255")
 		)
 		(pin "2"
-			(uuid "795a4c10-a25d-4c58-bf7d-b8aeaf5e91ac")
+			(uuid "795a4c10-a25d-4c58-bf7d-b8aeaf5e91ad")
 		)
 		(instances
 			(project ""
@@ -11354,7 +11374,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 102.87 180)
+		(at 45.72 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11363,7 +11383,7 @@
 		(fields_autoplaced yes)
 		(uuid "9db27676-71ef-45ed-b4ee-450ef7d5f513")
 		(property "Reference" "#PWR047"
-			(at 45.72 96.52 0)
+			(at 45.72 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +11392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 97.79 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 102.87 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,7 +11409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 102.87 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +11418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 102.87 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,7 +11427,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2f6f665-da43-4478-b906-2e55a451661a")
+			(uuid "f2f6f665-da43-4478-b906-2e55a451661b")
 		)
 		(instances
 			(project ""
@@ -12080,10 +12100,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c642c435-61ae-4a8a-968b-684498877263")
+			(uuid "c642c435-61ae-4a8a-968b-684498877265")
 		)
 		(pin "2"
-			(uuid "ab207c26-f411-4f76-be89-2ed51423d994")
+			(uuid "ab207c26-f411-4f76-be89-2ed51423d996")
 		)
 		(instances
 			(project ""
@@ -14193,10 +14213,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "189cd525-e98b-445e-96ac-e43428375e26")
+			(uuid "189cd525-e98b-445e-96ac-e43428375e28")
 		)
 		(pin "2"
-			(uuid "07072773-f7f1-4ac8-bbc8-e11644b47485")
+			(uuid "07072773-f7f1-4ac8-bbc8-e11644b47487")
 		)
 		(instances
 			(project ""
