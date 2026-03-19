@@ -6674,9 +6674,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc2e1ce-798f-48f5-ac98-93c087fce972")
-		(property "Reference" "#PWR0109"
+		(uuid "211f8ad8-2df8-4763-882e-d003691caf48")
+		(property "Reference" "#PWR090"
 			(at 229.87 33.02 0)
 			(effects
 				(font
@@ -6685,8 +6684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 237.49 33.0199 90)
+		(property "Value" "+SYS_SW"
+			(at 236.474 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,18 +6721,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "880a45ab-cdf5-4a32-839e-23f26a1acf2f")
+			(uuid "e1c4821b-4db8-405f-bd96-6ff9084bd04c")
 		)
 		(instances
-			(project ""
-				(path "/bf99c0e6-4ae6-4f18-a827-087a9b51b368"
-					(reference "#PWR08")
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 214.63 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25943802-1e37-4006-957f-d9676d255185")
+		(property "Reference" "#PWR091"
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+SYS_SW"
+			(at 210.566 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d74c7d-b91a-4b50-92f7-dc48a228553b")
+		)
+		(instances
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
-					(reference "#PWR0109")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -7074,72 +7133,6 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 266.7 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35fb897d-094d-4721-a273-42c8d506ce9b")
-		(property "Reference" "#PWR018"
-			(at 266.7 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 266.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 266.7 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b1ad1d6-347d-42c7-bcc3-c6ac576051e9")
-		)
-		(instances
-			(project "Enose_PCB"
-				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9455,6 +9448,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 266.7 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c08daac6-36f6-48bd-962e-c326383e33e1")
+		(property "Reference" "#PWR018"
+			(at 266.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+SYS_SW"
+			(at 262.636 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 266.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cba433be-b960-4813-8c4d-97c44c8509b7")
+		)
+		(instances
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 24.13 180)
 		(unit 1)
@@ -10288,72 +10347,6 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 214.63 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d58b274d-8f3f-43ef-b480-3de68195c05d")
-		(property "Reference" "#PWR019"
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 214.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 214.63 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ee6d327-639e-4d0d-9649-00511ffd0bdb")
-		)
-		(instances
-			(project "Enose_PCB"
-				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
