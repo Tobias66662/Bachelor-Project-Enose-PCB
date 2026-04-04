@@ -4687,11 +4687,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:64600001223"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "64600001223"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "64600001223"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LITTELFUSE - 64600001223 - FUSE BLOCK, 5X20MM, THROUGH HOLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-64600001223"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64600001223?qs=up76HT6PtJjfTS5uVso6wg%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "64600001223"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "64600001223_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:TPS22958DGNR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC?"
+			(property "Reference" "IC3"
 				(at 17.78 7.62 0)
 				(effects
 					(font
@@ -4707,7 +4874,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOP65P490X110-9N"
+			(property "Footprint" "SamacSys_Parts:SOP65P490X110-9N"
 				(at 31.75 -94.92 0)
 				(effects
 					(font
@@ -4798,7 +4965,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 0)
 					(length 5.08)
 					(name "VIN_1"
@@ -4816,7 +4983,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "VIN_2"
@@ -4888,7 +5055,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 35.56 0 180)
 					(length 5.08)
 					(name "VOUT_2"
@@ -4906,7 +5073,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 35.56 -2.54 180)
 					(length 5.08)
 					(name "VOUT_1"
@@ -4924,7 +5091,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 35.56 -6.35 180)
 					(length 5.08)
 					(name "GND"
@@ -6316,6 +6483,12 @@
 		(uuid "4d9edd8b-4314-4d98-82c1-d0e8f02a3285")
 	)
 	(junction
+		(at 241.3 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "651cc8a7-9a0c-4372-9892-e362728aa51f")
+	)
+	(junction
 		(at 52.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6350,12 +6523,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bd28705-0d4a-428f-bb2d-1a3a1419634e")
-	)
-	(junction
-		(at 240.03 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cd9a12a-3f25-4e02-98a0-4acef1aa7a2e")
 	)
 	(junction
 		(at 67.31 43.18)
@@ -6412,16 +6579,16 @@
 		(uuid "c982d645-5efd-4274-8245-cd84522e4040")
 	)
 	(junction
+		(at 241.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf1037ca-7896-42c6-a3b3-b4bb1f4dbd90")
+	)
+	(junction
 		(at 52.07 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d776bc23-727e-4bba-9b70-aa59dc11775a")
-	)
-	(junction
-		(at 240.03 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da6196bd-a614-46bd-b4fc-75e3c0d27b89")
 	)
 	(junction
 		(at 246.38 100.33)
@@ -6567,16 +6734,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 92.71) (xy 240.03 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a4859d6-c74f-4e31-a57c-603cb3df0af4")
-	)
-	(wire
-		(pts
 			(xy 223.52 54.61) (xy 231.14 54.61)
 		)
 		(stroke
@@ -6614,6 +6771,16 @@
 			(type default)
 		)
 		(uuid "10a3c573-4da2-441c-926f-328dc72cfa8f")
+	)
+	(wire
+		(pts
+			(xy 238.76 92.71) (xy 241.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119dd829-8056-4991-8180-ecf98df13e66")
 	)
 	(wire
 		(pts
@@ -6744,16 +6911,6 @@
 			(type default)
 		)
 		(uuid "1dc0d9de-68ec-4989-833c-9c40f17bceb8")
-	)
-	(wire
-		(pts
-			(xy 240.03 100.33) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e37e5e7-19d4-4dcc-9e6f-8fffb030d191")
 	)
 	(wire
 		(pts
@@ -6954,6 +7111,16 @@
 			(type default)
 		)
 		(uuid "3e015e3f-2f87-43a4-bdb6-e43697e1a3c7")
+	)
+	(wire
+		(pts
+			(xy 241.3 92.71) (xy 246.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b46c9d-bf26-4070-addc-e66063fa9011")
 	)
 	(wire
 		(pts
@@ -7347,6 +7514,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 100.33) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859019e2-cb36-4b78-bbbd-e6144b22820e")
+	)
+	(wire
+		(pts
 			(xy 40.64 54.61) (xy 40.64 60.96)
 		)
 		(stroke
@@ -7424,16 +7601,6 @@
 			(type default)
 		)
 		(uuid "8e53fa7a-5c1c-44a7-ad10-bc92c5f1aa58")
-	)
-	(wire
-		(pts
-			(xy 240.03 92.71) (xy 246.38 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fddbcda-611a-4e34-abe0-80e15db78a8a")
 	)
 	(wire
 		(pts
@@ -7584,6 +7751,16 @@
 			(type default)
 		)
 		(uuid "a5207c49-a7f8-4fc0-81dd-9078ac6c6fe0")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 246.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e85055-4385-4e14-965d-6aaee8fceb4e")
 	)
 	(wire
 		(pts
@@ -7937,7 +8114,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 101.6) (xy 240.03 101.6)
+			(xy 233.68 101.6) (xy 241.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8014,16 +8191,6 @@
 			(type default)
 		)
 		(uuid "ef64cd58-a1fd-4c8c-ac69-a927b165eac4")
-	)
-	(wire
-		(pts
-			(xy 240.03 101.6) (xy 246.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f08548c0-b9c0-43d9-85ab-abf553c3e9d8")
 	)
 	(wire
 		(pts
@@ -8902,7 +9069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 101.6 270)
+		(at 233.68 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8911,7 +9078,7 @@
 		(fields_autoplaced yes)
 		(uuid "06634fd7-cb0d-4918-be61-9210e20e8266")
 		(property "Reference" "#PWR063"
-			(at 228.6 101.6 0)
+			(at 227.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +9087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 101.5999 90)
+			(at 229.87 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +9096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 101.6 0)
+			(at 233.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +9105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 101.6 0)
+			(at 233.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,7 +9114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 101.6 0)
+			(at 233.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10316,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100"
@@ -10284,7 +10450,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100"
@@ -10332,6 +10497,126 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:64600001223")
+		(at 220.98 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c570141-5080-4df8-87c4-2d48ca14ac10")
+		(property "Reference" "F1"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse Holder"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:64600001223"
+			(at 234.95 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf"
+			(at 234.95 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 64600001223 - FUSE BLOCK, 5X20MM, THROUGH HOLE"
+			(at 220.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12"
+			(at 234.95 488.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-64600001223"
+			(at 234.95 588.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64600001223?qs=up76HT6PtJjfTS5uVso6wg%3D%3D"
+			(at 234.95 688.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 234.95 788.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "64600001223"
+			(at 234.95 888.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c928d1e5-9f17-46d8-8356-b82eec1bca55")
+		)
+		(pin "2"
+			(uuid "539dc304-6905-4c63-a0dd-ebf0b6ab4333")
+		)
+		(instances
+			(project ""
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11464,7 +11749,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 234.95 92.71 90)
+		(at 220.98 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11473,7 +11758,7 @@
 		(fields_autoplaced yes)
 		(uuid "710ed385-67ee-4ec2-bd37-16fffa97148c")
 		(property "Reference" "#PWR062"
-			(at 238.76 92.71 0)
+			(at 224.79 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11482,7 +11767,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 231.14 92.7099 90)
+			(at 217.17 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,7 +11776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 92.71 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11500,7 +11785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 92.71 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 234.95 92.71 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +12019,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SM6T18A")
-		(at 240.03 96.52 90)
+		(at 241.3 96.52 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11743,7 +12028,7 @@
 		(dnp no)
 		(uuid "7d6f289f-586b-4f65-bdbe-9ad51bc9e6c2")
 		(property "Reference" "D8"
-			(at 237.49 95.2499 90)
+			(at 238.76 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +12037,7 @@
 			)
 		)
 		(property "Value" "SMBJ18A-E3/52"
-			(at 237.49 97.7899 90)
+			(at 238.76 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +12046,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 245.11 96.52 0)
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,7 +12055,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88392/smbj.pdf"
-			(at 240.03 95.25 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +12064,7 @@
 			)
 		)
 		(property "Description" "Vishay SMBJ18A-E3/52, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
-			(at 240.03 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,7 +13512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6b64a52-708f-4134-aaaa-a45108583f2a")
-		(property "Reference" "TP?"
+		(property "Reference" "TP7"
 			(at 184.658 107.442 0)
 			(effects
 				(font
@@ -13279,7 +13564,7 @@
 		(instances
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e"
-					(reference "TP?")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
