@@ -1,5 +1,8 @@
-/Enose_PCB-backups
 # Ignore list for KiCAD Projects
+
+# KiCad backups
+*-backups/
+
 # Temporary files
 *.000
 *.bak
