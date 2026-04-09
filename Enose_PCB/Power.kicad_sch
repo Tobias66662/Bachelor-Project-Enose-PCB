@@ -7415,6 +7415,16 @@
 		)
 		(uuid "75e3fe04-d2b7-4312-ba68-85aa75425c13")
 	)
+	(label "LX2"
+		(at 33.02 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7960964d-0850-4d37-b6c7-65ec5f7a8cda")
+	)
 	(label "PG{slash}NTC2"
 		(at 167.64 142.24 180)
 		(effects
@@ -7544,6 +7554,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5781a8f-d51e-49ea-bd8a-89c2ac8c8eeb")
+	)
+	(label "LX1"
+		(at 33.02 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef705e4c-629f-4347-89d5-6c75302d6a36")
 	)
 	(global_label "I2C_SDA"
 		(shape input)
