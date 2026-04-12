@@ -1796,400 +1796,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:SP0504BAHT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SP0504BAHT"
-				(at 7.62 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 7.62 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS Diode Array, 5.5V Standoff, 4 Channels, SOT-23-5 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "usb esd protection suppression transient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SP0504BAHT_0_0"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SP0504BAHT_0_1"
-				(rectangle
-					(start -4.445 2.54)
-					(end 6.985 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 1.016) (xy 4.318 1.27) (xy 5.715 1.27) (xy 5.842 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 4.445 0) (xy 5.715 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SP0504BAHT_1_1"
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Q_NPN_1"
 			(pin_numbers
 				(hide yes)
@@ -4312,6 +3918,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:ESD8351XV2T1G"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ESD8351XV2T1G"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SODFL1608X70N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD8351-D.PDF"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Capacitance (0.55 pF Max, I/O to GND); SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Low ESD Clamping Voltage; Protection for the Following IEC Standards: IEC 6100042 (Level 4) ISO 10605; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-ESD8351XV2T1G"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD8351XV2T1G?qs=dbuNSGnowt2jrannSKCQWA%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESD8351XV2T1G"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ESD8351XV2T1G_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "U.FL-R-SMT_01_:U.FL-R-SMT_01_"
 			(pin_names
 				(offset 1.016)
@@ -5092,28 +4914,22 @@
 		(uuid "0102b459-c569-4318-a8f1-d66eedae23c5")
 	)
 	(junction
+		(at 213.36 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "018021bd-f12b-4d97-a2f0-47c371cdc117")
+	)
+	(junction
 		(at 96.52 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02ce0c35-4b75-4367-b29b-750caef0aa87")
 	)
 	(junction
-		(at 208.28 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "037a2221-4df6-4f1c-a4f3-f388a72c0fca")
-	)
-	(junction
 		(at 148.59 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04244a0e-bb39-4e8a-ad5a-5912ad29cfbc")
-	)
-	(junction
-		(at 205.74 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13a68f0c-dc8a-4f8e-8904-5ed1562739b6")
 	)
 	(junction
 		(at 195.58 33.02)
@@ -5132,6 +4948,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e4159bb-4b7f-48a9-828f-98cc4345a372")
+	)
+	(junction
+		(at 63.5 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22555fca-fbc5-4faa-a476-73259d9ff1cf")
 	)
 	(junction
 		(at 148.59 116.84)
@@ -5218,6 +5040,12 @@
 		(uuid "4db05758-e182-4b88-a83b-a289764bbab3")
 	)
 	(junction
+		(at 203.2 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57007879-06eb-4abe-958e-51111fc2ab80")
+	)
+	(junction
 		(at 152.4 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5230,10 +5058,10 @@
 		(uuid "626ed55b-30b3-4fc5-b644-4bf36512d1fa")
 	)
 	(junction
-		(at 210.82 66.04)
+		(at 185.42 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b2ae9d6-88c7-4ea6-bb49-89a84afa6d37")
+		(uuid "6b7592d6-851c-4554-b00e-06444392045a")
 	)
 	(junction
 		(at 201.93 139.7)
@@ -5246,6 +5074,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a72149f-ae54-4901-bbc1-9ac32dec3ee1")
+	)
+	(junction
+		(at 63.5 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7de35f59-7e62-4187-b8fb-26f920b1ebc9")
 	)
 	(junction
 		(at 148.59 142.24)
@@ -5278,6 +5112,12 @@
 		(uuid "905eceb0-bc62-408d-bd54-f631a2e79613")
 	)
 	(junction
+		(at 209.55 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92459c2c-e7a1-4f21-8634-557de9aca330")
+	)
+	(junction
 		(at 148.59 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5300,6 +5140,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab3aeb95-5bc6-48fa-afe5-3ae082d9c950")
+	)
+	(junction
+		(at 210.82 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab9e01c7-db4e-423d-9799-3a4ed8cdd4e3")
 	)
 	(junction
 		(at 148.59 149.86)
@@ -5356,10 +5202,10 @@
 		(uuid "e2193192-900a-4260-ab5b-d5c38c1a4a5a")
 	)
 	(junction
-		(at 203.2 78.74)
+		(at 210.82 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f537170f-d22a-4875-9696-007d52c6c3e7")
+		(uuid "f1661059-0d3b-49dc-b06b-1e2c92128f97")
 	)
 	(no_connect
 		(at 148.59 63.5)
@@ -5601,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 68.58) (xy 208.28 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197a55af-3a2c-4c6b-a588-b47d617b5034")
-	)
-	(wire
-		(pts
 			(xy 254 148.59) (xy 254 139.7)
 		)
 		(stroke
@@ -5661,6 +5497,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 59.69) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ebb1c5-3f69-4910-9649-af10c753ea15")
+	)
+	(wire
+		(pts
 			(xy 99.06 68.58) (xy 93.98 68.58)
 		)
 		(stroke
@@ -5691,6 +5537,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 97.79) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cd361b-06b1-49dc-93c5-56b012f9b262")
+	)
+	(wire
+		(pts
 			(xy 274.32 71.12) (xy 274.32 73.66)
 		)
 		(stroke
@@ -5698,16 +5554,6 @@
 			(type default)
 		)
 		(uuid "28f6c05a-152c-4c4d-86d1-e10d4605e57c")
-	)
-	(wire
-		(pts
-			(xy 203.2 78.74) (xy 203.2 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "293c0f8f-38c3-45f8-bf5b-992111e89e75")
 	)
 	(wire
 		(pts
@@ -5741,7 +5587,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 60.96) (xy 68.58 60.96)
+			(xy 60.96 60.96) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5761,13 +5607,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 78.74) (xy 228.6 78.74)
+			(xy 213.36 50.8) (xy 213.36 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d2e7fcc-d9ce-4c82-88f0-551a4175cec9")
+		(uuid "38d8bdc0-f6ac-43ab-bd22-729d04b10472")
 	)
 	(wire
 		(pts
@@ -5791,6 +5637,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 71.12) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e491863-8b9b-4ab0-a70e-b5b972b20bc1")
+	)
+	(wire
+		(pts
 			(xy 274.32 76.2) (xy 274.32 78.74)
 		)
 		(stroke
@@ -5798,6 +5654,16 @@
 			(type default)
 		)
 		(uuid "3ee64167-28cc-49bc-a644-22f2f9ca2bb6")
+	)
+	(wire
+		(pts
+			(xy 203.2 82.55) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efa5604-a537-483c-88f0-cbb1dd3f806c")
 	)
 	(wire
 		(pts
@@ -5811,13 +5677,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 68.58) (xy 228.6 68.58)
+			(xy 198.12 68.58) (xy 209.55 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4540a5ff-991a-4320-984d-a32a98919f87")
+		(uuid "4413060e-ac8f-45df-9dd9-cc96ed750a69")
 	)
 	(wire
 		(pts
@@ -5868,6 +5734,16 @@
 			(type default)
 		)
 		(uuid "4cf67d6e-01ae-4643-bdb7-b844a62894dc")
+	)
+	(wire
+		(pts
+			(xy 200.66 57.15) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db42a98-ce26-4f09-b9f2-ba63ac7d74ef")
 	)
 	(wire
 		(pts
@@ -5951,6 +5827,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 68.58) (xy 228.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ec1d84-d9fb-4d62-a597-b185e30ecdf7")
+	)
+	(wire
+		(pts
 			(xy 274.32 66.04) (xy 274.32 68.58)
 		)
 		(stroke
@@ -5991,16 +5877,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 72.39) (xy 205.74 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621cc5be-687d-4e8f-8331-d1bc1024336d")
-	)
-	(wire
-		(pts
 			(xy 149.86 26.67) (xy 149.86 30.48)
 		)
 		(stroke
@@ -6021,7 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 68.58) (xy 83.82 68.58)
+			(xy 60.96 68.58) (xy 63.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6131,6 +6007,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7622ffaf-3bc8-446b-affa-00b50662ce88")
+	)
+	(wire
+		(pts
 			(xy 86.36 52.07) (xy 86.36 46.99)
 		)
 		(stroke
@@ -6158,6 +6044,16 @@
 			(type default)
 		)
 		(uuid "77935eff-6940-49cc-9f89-15f1985ecd28")
+	)
+	(wire
+		(pts
+			(xy 210.82 71.12) (xy 210.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e18356-5552-4658-a328-ff745ed62a82")
 	)
 	(wire
 		(pts
@@ -6241,16 +6137,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 223.52 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870e58ce-5caf-49e5-bab1-5000b37d3186")
-	)
-	(wire
-		(pts
 			(xy 195.58 33.02) (xy 207.01 33.02)
 		)
 		(stroke
@@ -6281,6 +6167,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92af2d2a-db27-46bc-8978-d264a555aefb")
+	)
+	(wire
+		(pts
 			(xy 254 139.7) (xy 259.08 139.7)
 		)
 		(stroke
@@ -6291,7 +6187,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 72.39) (xy 195.58 72.39)
+			(xy 186.69 72.39) (xy 194.31 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6301,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 210.82 66.04)
+			(xy 208.28 66.04) (xy 213.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6311,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 71.12) (xy 228.6 71.12)
+			(xy 205.74 71.12) (xy 210.82 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6341,16 +6237,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 57.15 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cba3554-65b8-473d-bffa-34230623a86d")
-	)
-	(wire
-		(pts
 			(xy 173.99 33.02) (xy 184.15 33.02)
 		)
 		(stroke
@@ -6361,6 +6247,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 50.8) (xy 185.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b7e14e-f320-458a-9d97-4eafd4a83078")
+	)
+	(wire
+		(pts
 			(xy 229.87 31.75) (xy 229.87 33.02)
 		)
 		(stroke
@@ -6368,16 +6264,6 @@
 			(type default)
 		)
 		(uuid "a349ebb4-9209-4a60-b585-c2235ba46ed6")
-	)
-	(wire
-		(pts
-			(xy 208.28 68.58) (xy 208.28 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a672abed-755c-49d8-b1e7-5f866fac1e85")
 	)
 	(wire
 		(pts
@@ -6451,13 +6337,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 203.2 78.74)
+			(xy 213.36 66.04) (xy 223.52 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5607462-4cf3-4ee8-a9f7-4a145136d389")
+		(uuid "b707fb77-f9a5-4a9b-bdc5-82438fc9c55d")
 	)
 	(wire
 		(pts
@@ -6488,6 +6374,16 @@
 			(type default)
 		)
 		(uuid "bb3b8153-b8ab-4b6e-a5ff-468880b93190")
+	)
+	(wire
+		(pts
+			(xy 209.55 57.15) (xy 209.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6ce93c-0f4d-4232-8803-00b2f1eb6f16")
 	)
 	(wire
 		(pts
@@ -6581,13 +6477,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 72.39) (xy 205.74 72.39)
+			(xy 201.93 72.39) (xy 205.74 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d15accfb-c5cc-4ca2-b7a1-7eb4fe268e50")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6dfdf1f-8ae6-420e-82ec-40ec06317b65")
 	)
 	(wire
 		(pts
@@ -6601,6 +6507,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 97.79) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3b54ed-dd9e-4220-9c6a-2987ab74739b")
+	)
+	(wire
+		(pts
 			(xy 214.63 124.46) (xy 214.63 127)
 		)
 		(stroke
@@ -6608,6 +6524,16 @@
 			(type default)
 		)
 		(uuid "daf9a8d4-aee4-4f33-9c70-ea457729958b")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 63.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc7e4c9-4cb9-4d14-895f-145b36d2cb20")
 	)
 	(wire
 		(pts
@@ -6631,13 +6557,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 210.82 83.82)
+			(xy 63.5 68.58) (xy 83.82 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef29b59d-5029-44a3-b4e5-451f2b8a2765")
+		(uuid "edf95260-2004-435d-9d70-a1dfc7b38cf5")
 	)
 	(wire
 		(pts
@@ -6658,6 +6584,16 @@
 			(type default)
 		)
 		(uuid "f3b37a06-b77e-42c9-a81b-f3e5fc98f7ea")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f494e638-c09d-431d-a421-bce2345112b2")
 	)
 	(wire
 		(pts
@@ -6891,7 +6827,7 @@
 	)
 	(global_label "UART1_TXD"
 		(shape input)
-		(at 64.77 60.96 180)
+		(at 60.96 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6901,7 +6837,7 @@
 		)
 		(uuid "1475d209-8c56-468c-b580-86511d0516b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.5039 60.96 0)
+			(at 47.6939 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +6871,7 @@
 	)
 	(global_label "UART1_RXD"
 		(shape input)
-		(at 64.77 68.58 180)
+		(at 60.96 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6945,7 +6881,7 @@
 		)
 		(uuid "c88f4f99-0272-4f42-b1e6-9c15d149d121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.2015 68.58 0)
+			(at 47.3915 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7150,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 203.2 68.58 0)
+		(at 199.39 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7224,7 +7160,7 @@
 		)
 		(uuid "85b93395-1abe-4442-8574-bd9708f161f3")
 		(property "Netclass" "SIGNAL"
-			(at 203.8985 66.04 0)
+			(at 200.0885 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7170,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -30.48 -3.81 0)
+			(at -34.29 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,6 +7384,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:ESD8351XV2T1G")
+		(at 210.82 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0663fe46-fbb9-45aa-ad9c-819b115d28de")
+		(property "Reference" "D18"
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD8351XV2T1G"
+			(at 205.74 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SODFL1608X70N"
+			(at 117.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD8351-D.PDF"
+			(at 17.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Capacitance (0.55 pF Max, I/O to GND); SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Low ESD Clamping Voltage; Protection for the Following IEC Standards: IEC 6100042 (Level 4) ISO 10605; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at -182.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-ESD8351XV2T1G"
+			(at -282.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD8351XV2T1G?qs=dbuNSGnowt2jrannSKCQWA%3D%3D"
+			(at -382.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -482.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD8351XV2T1G"
+			(at -582.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "901a09b5-7d4b-4165-912a-ea42faf8f1bb")
+		)
+		(pin "1"
+			(uuid "009cbb12-1239-418e-9162-7ca2efa413c4")
+		)
+		(instances
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 149.86 0)
 		(unit 1)
@@ -7507,6 +7563,73 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08322dc1-f0b7-4767-a920-b51940af13f6")
+		(property "Reference" "#PWR059"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2408effa-01bc-42e1-8d29-a384986caf4b")
+		)
+		(instances
+			(project ""
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8229,7 +8352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 102.87 73.66 0)
 			(effects
 				(font
@@ -8841,7 +8964,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 72.39 270)
+		(at 198.12 72.39 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8850,7 +8973,7 @@
 		(dnp no)
 		(uuid "57599532-e8e3-4fa7-863f-11594316615b")
 		(property "Reference" "R24"
-			(at 199.39 77.216 90)
+			(at 198.12 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +8981,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 199.39 74.676 90)
+			(at 198.12 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +8989,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 199.39 74.168 90)
+			(at 198.12 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +8998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 72.39 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +9007,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 72.39 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9690,6 +9813,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d3d58ad-45b1-4446-97c3-6b248a88e042")
+		(property "Reference" "TP13"
+			(at 60.96 74.4221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 71.8821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 58.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c000797-4fb4-4d7c-a3a3-c8f31bed5f24")
+		)
+		(instances
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 257.81 148.59 270)
 		(unit 1)
@@ -9752,86 +9941,6 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:SP0504BAHT")
-		(at 205.74 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f4f9dc8-bb5c-4131-88b0-1ce24d3acaeb")
-		(property "Reference" "D10"
-			(at 214.63 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESDALC6V1W5"
-			(at 214.63 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ESDALC6V1W5:SOT65P210X110-5N"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.915 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f191223-ed67-4326-b43a-219db7df86c4")
-		)
-		(pin "3"
-			(uuid "ac1072f2-b199-471e-9dc9-60e7e695e926")
-		)
-		(pin "5"
-			(uuid "10e5bcf7-95ca-4a94-9921-f48492261e58")
-		)
-		(pin "1"
-			(uuid "2f706c46-1320-4438-b48a-b7a5c801d50d")
-		)
-		(pin "4"
-			(uuid "3c6c29e3-767b-4c5d-a329-a5b11fb42b85")
-		)
-		(instances
-			(project ""
-				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -9904,6 +10013,126 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ESD8351XV2T1G")
+		(at 200.66 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "818b7427-e32d-4cce-a86e-0e537daaa695")
+		(property "Reference" "D7"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD8351XV2T1G"
+			(at 193.548 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SODFL1608X70N"
+			(at 190.5 -42.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD8351-D.PDF"
+			(at 190.5 -142.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Capacitance (0.55 pF Max, I/O to GND); SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Low ESD Clamping Voltage; Protection for the Following IEC Standards: IEC 6100042 (Level 4) ISO 10605; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 190.5 -342.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-ESD8351XV2T1G"
+			(at 190.5 -442.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD8351XV2T1G?qs=dbuNSGnowt2jrannSKCQWA%3D%3D"
+			(at 190.5 -542.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 190.5 -642.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD8351XV2T1G"
+			(at 190.5 -742.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98cbcf15-c797-4c36-8984-5b3018055c14")
+		)
+		(pin "1"
+			(uuid "80fb10de-cb41-4f57-bfed-e39f6e3362f0")
+		)
+		(instances
+			(project ""
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10146,7 +10375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 151.13 45.72 0)
 			(effects
 				(font
@@ -10783,7 +11012,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 93.98 0)
+		(at 214.63 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10791,7 +11020,7 @@
 		(dnp no)
 		(uuid "c3fba5da-1539-4a9d-99a1-b83883541a35")
 		(property "Reference" "#PWR015"
-			(at 205.74 100.33 0)
+			(at 220.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +11029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 97.282 90)
+			(at 217.932 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +11038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 93.98 0)
+			(at 214.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +11047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 93.98 0)
+			(at 214.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +11056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 93.98 0)
+			(at 214.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +11102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -10907,6 +11136,73 @@
 			(project ""
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7e2d7a5-7593-4a12-bc8c-73749e9293c6")
+		(property "Reference" "TP12"
+			(at 60.96 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "929ae467-39ef-4f27-b8dc-fc042643ee60")
+		)
+		(instances
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10982,7 +11278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 50.8 0)
+		(at 57.15 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10990,7 +11286,7 @@
 		(dnp no)
 		(uuid "c892d4bf-c9a3-4a1c-aa9d-216a149892a2")
 		(property "Reference" "#PWR0103"
-			(at 57.15 57.15 0)
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +11295,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 55.372 0)
+			(at 61.722 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,7 +11303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 50.8 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 50.8 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +11321,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 50.8 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11147,7 +11443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 144.78 26.67 0)
 			(effects
 				(font
@@ -11779,6 +12075,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:ESD8351XV2T1G")
+		(at 203.2 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1b234d3-ace1-4343-b711-7247ddc648dd")
+		(property "Reference" "D17"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD8351XV2T1G"
+			(at 198.12 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SODFL1608X70N"
+			(at 109.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD8351-D.PDF"
+			(at 9.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Capacitance (0.55 pF Max, I/O to GND); SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Low ESD Clamping Voltage; Protection for the Following IEC Standards: IEC 6100042 (Level 4) ISO 10605; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at -190.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-ESD8351XV2T1G"
+			(at -290.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD8351XV2T1G?qs=dbuNSGnowt2jrannSKCQWA%3D%3D"
+			(at -390.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -490.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD8351XV2T1G"
+			(at -590.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2c85c6b-e90d-4632-b15c-80a14fbe6b80")
+		)
+		(pin "1"
+			(uuid "f7993c5c-cca4-4feb-9b54-4f215fcfbc3a")
+		)
+		(instances
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 173.99 27.94 0)
 		(unit 1)
@@ -12072,6 +12488,126 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ESD8351XV2T1G")
+		(at 200.66 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e96ae46a-99ef-4ced-b7bc-b37b5c080499")
+		(property "Reference" "D10"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD8351XV2T1G"
+			(at 193.548 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SODFL1608X70N"
+			(at 190.5 -36.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD8351-D.PDF"
+			(at 190.5 -136.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Capacitance (0.55 pF Max, I/O to GND); SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Low ESD Clamping Voltage; Protection for the Following IEC Standards: IEC 6100042 (Level 4) ISO 10605; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 190.5 -336.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-ESD8351XV2T1G"
+			(at 190.5 -436.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD8351XV2T1G?qs=dbuNSGnowt2jrannSKCQWA%3D%3D"
+			(at 190.5 -536.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 190.5 -636.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD8351XV2T1G"
+			(at 190.5 -736.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6ded86c-ae2a-42d5-9f0f-f9d82421a32d")
+		)
+		(pin "1"
+			(uuid "2504f518-3909-4bf5-b99f-e97dc3e8c43a")
+		)
+		(instances
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/2117c019-44e0-44cf-b334-dcd1316d0701"
+					(reference "D10")
 					(unit 1)
 				)
 			)
