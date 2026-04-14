@@ -5822,6 +5822,12 @@
 		(uuid "cfddd183-f647-40f2-a30d-ac4097c4e063")
 	)
 	(junction
+		(at 83.82 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dec28aec-e3c6-4aa7-931f-dec212bed5d0")
+	)
+	(junction
 		(at 246.38 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6865,6 +6871,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 34.29) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df6b398-989e-47ec-9f3b-4b1a9714e01f")
+	)
+	(wire
+		(pts
 			(xy 259.08 125.73) (xy 262.89 125.73)
 		)
 		(stroke
@@ -7125,7 +7141,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 34.29) (xy 86.36 34.29)
+			(xy 74.93 34.29) (xy 83.82 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7764,7 +7780,7 @@
 		(uuid "b0d5f460-c382-424e-9540-52474f7f6313")
 	)
 	(label "PG{slash}NTC2"
-		(at 269.24 119.38 0)
+		(at 266.7 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9667,73 +9683,6 @@
 			(project "Enose_PCB"
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/c704ca63-8ab0-46ce-942e-504221cfea41"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c1206d6-6dd7-4bbb-b007-ef46ff97a5ab")
-		(property "Reference" "TP3"
-			(at 132.08 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 132.08 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 127 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b33728f2-5cab-405d-841e-f78fb6003543")
-		)
-		(instances
-			(project ""
-				(path "/eef70be0-4107-491c-8ca0-465071a6397e/c704ca63-8ab0-46ce-942e-504221cfea41"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12818,6 +12767,74 @@
 			(project ""
 				(path "/eef70be0-4107-491c-8ca0-465071a6397e/c704ca63-8ab0-46ce-942e-504221cfea41"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 34.29 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad741a17-653e-4461-a824-50cb965a6c78")
+		(property "Reference" "TP3"
+			(at 78.74 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.36 36.3221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31da92bb-60f3-42f5-8247-432bac02d7f6")
+		)
+		(instances
+			(project "Enose_PCB"
+				(path "/eef70be0-4107-491c-8ca0-465071a6397e/c704ca63-8ab0-46ce-942e-504221cfea41"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
